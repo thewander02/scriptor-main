@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.scriptor.tome",
+      "color": "white"
+    },
+    "description": {
+      "text": "Uncover an ancient tome."
+    },
+    "icon": {
+      "item": "minecraft:book"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "collect": {
+      "conditions": {},
+      "trigger": "scriptor:tome_collect"
+    }
+  },
+  "rewards": {
+    "loot": [
+      "scriptor:patchouli_book"
+    ]
+  }
+}

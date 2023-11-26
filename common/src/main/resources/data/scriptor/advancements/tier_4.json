@@ -1,0 +1,24 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.scriptor.tier_4"
+    },
+    "description": {
+      "translate": "advancement.scriptor.tier_4_desc"
+    },
+    "icon": {
+      "item": "scriptor:tome_tier4"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collect": {
+      "conditions": {},
+      "trigger": "scriptor:tome4_collect"
+    }
+  },
+  "parent": "scriptor:tome"
+}

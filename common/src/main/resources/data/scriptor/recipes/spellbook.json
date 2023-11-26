@@ -1,0 +1,6 @@
+{
+  "type": "scriptor:spellbook",
+  "base": "minecraft:written_book",
+  "addition": "scriptor:spellbook_binder",
+  "result": "scriptor:spellbook"
+}
